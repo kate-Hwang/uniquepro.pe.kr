@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인재채용</title>
+    <link rel="stylesheet" href="./CSS/support.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./sindo.html">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="page-support">
+    <div id="support-wrap">
+        <!--menu and header in common-->
+        <div id="header">
+            <span class="header-line"></span>
+            <div id="headerin">
+                <div class="header-inner">
+                    <img class="logo" src="./IMG/logo-2.png">
+                    <nav class="menu">
+                        <ul class="menu_cnt">
+                        <li><a href="#">기업소개</a>
+                            <ul class="dexth">
+                                <li><a href="#">신도리코</a></li>
+                                <li><a href="#">친환경경영</a></li>
+                                <li><a href="#">신도리코人</a></li>
+                                <li><a href="#">문화공간</a></li>
+                            </ul>
+                        </li><!--End of 기업소개-->
+                            
+                        <li><a href="#">제품정보</a>
+                            <ul class="dexth">
+                                <li><a href="#">솔루션</a></li>
+                                <li><a href="#">팩시밀리</a></li>
+                                <li><a href="#">복합기/프린트</a></li>
+                                <li><a href="#">UV프린트</a></li>
+                                <li><a href="#">3D Printer</a></li>
+                                <li><a href="#">대형디지털복합기</a></li>
+                                <li><a href="#">정부조달품목</a></li>
+                                <li><a href="#">소모품</a></li>
+                            </ul>
+                        </li><!--End of 제품정보-->
+                            
+                        <li><a href="#">인재채용</a>
+                            <ul class="dexth">
+                                <li><a href="#">인재상</a></li>
+                                <li><a href="#">인사제도</a></li>
+                                <li><a href="#">인재육성</a></li>
+                                <li><a href="#">채용공고</a></li>
+                                <li><a href="#">합격자발표</a></li>
+                                <li><a href="#">채용문의</a></li>
+                            </ul>        
+                        </li><!--End of 인재채용-->
+                        <div class="icon"><a href="#"></a></div>
+                        </ul>  
+
+                        <div class="utill">
+                            <ul>
+                                <li><a href="./sindo.html" class="home"></a></li>
+                                <li><a href="#" class="Search-icn"></a></li>
+                                <li><a href="#" class="Sindoh-NEWS-text">S-News</a></li>
+                            </ul>
+                        </div><!--End of utill-->
+                    </nav><!--End of menu-->
+                    <div></div>
+                </div> <!--header-inner-->
+            </div>   <!--headerin-->
+        </div><!--End of header-->
+     
+        <section id="container">
+            <div class="Visual-page-tit">
+                <span>인재채용</span>
+                <div></div>
+            </div>
+            <div class="find-my-title">
+                <div class="title-txt">
+                    <h2 class="title-txt-h2">채용공고</h2>
+                    <p class="title-txt-cont">Sindo 그룹은 열정적인 최고의 인재를 기다리고 있습니다.</p>
+                </div>
+                <div class="search">
+                    <input type="search" id="fine-job" placeholder="원하는 검색어를 입력하세요">
+                    <button type="submit" class="search-submit-btn">검색</button>
+                </div>
+            </div><!--find-my-title-->
+            <div class="contents-inner">
+                
+                <ul class="tabs bbs-tab">
+                    <li class="active" rel="tab1">전체<span>(15)</span></li>
+                    <li rel="tab2">신입<span>(4)</span></li>
+                    <li rel="tab3">경력<span>(7)</span></li>
+                    <li rel="tab4">인턴<span>(1)</span></li>
+                    <li rel="tab5">상시<span>(3)</span></li>
+                </ul>
+        
+                <div class="tab_container"><!-- Notice list -->
+                    <h3 class="d_active tab_drawer_heading" rel="tab1" alt="All">전체</h3>
+                    <div id="tab1" class="tab_content">
+                        <div class="ntc-list" id="ntc-list">
+                            <!--게시글 리스트--> 
+                            <div class="notice-list-inner">
+        
+                            <table>
+                                <thead class="support-tb-header">
+                                    <tr scope="col" class="support-tb-inner">
+                                        <td>분류</td>
+                                        <td>제 목</td>
+                                        <td>접수기한</td>
+                                        <td>비고</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="support-tbody-list">
+                                    <tr>
+                                        <td class="subject_type">상시</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[마케팅] 블로그/SNS 마케팅 컨텐츠 담당자 상시모집</a>
+                                        </td>
+                                        <td class="txt_dDay">상시</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="new" class="subject_type">신입</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[개발] 2021년 상반기 R&D 신입사원 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">인턴</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[해외영업] 2021년 상반기 채용연계형 인턴 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[시스템] 2021년 기획팀 경력직 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#"><strong>2021년 상반기 인사팀 경력 모집<strong></a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">상시</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[시스템] 모바일 개발팀 상시 신입/경력 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">상시</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+        
+                            </div>
+                        </div> <!--ntc-list-->
+                    </div>
+                    <!-- #tab1 -->
+        
+                    <h3 class="tab_drawer_heading" rel="tab2">신입</h3>
+                    <div id="tab2" class="tab_content">
+                        <div class="ntc-list" id="ntc-list">
+                            <!--게시글 리스트--> 
+                            <div class="notice-list-inner">
+        
+                            <table>
+                                <thead class="support-tb-header">
+                                    <tr scope="col" class="support-tb-inner">
+                                        <td>분류</td>
+                                        <td>제 목</td>
+                                        <td>접수기한</td>
+                                        <td>비고</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="support-tbody-list">
+                                    <tr>
+                                        <td id="new" class="subject_type">신입</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[개발] 2021년 상반기 R&D 신입사원 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="new" class="subject_type">신입</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[해외지사] 2021년 상반기 영업 신입사원 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="new" class="subject_type">신입</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[시스템] 2021년 상반기 보안시스템 신입사원 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="new" class="subject_type">신입</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[해외영업] 2021년 상반기 사무지원 신입사원 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+        
+                            </div>
+                        </div> <!--ntc-list-->
+                    </div>
+                    <!-- #tab2 -->
+        
+                    <h3 class="tab_drawer_heading" rel="tab3">경력</h3>
+                    <div id="tab3" class="tab_content">
+                        <div class="ntc-list" id="ntc-list">
+                            <!--게시글 리스트--> 
+                            <div class="notice-list-inner">
+        
+                            <table>
+                                <thead class="support-tb-header">
+                                    <tr scope="col" class="support-tb-inner">
+                                        <td>분류</td>
+                                        <td>제 목</td>
+                                        <td>접수기한</td>
+                                        <td>비고</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="support-tbody-list">
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[QA]] 2021년 상반기 품질관리팀 경력 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[마케팅] 2021년 마케팅프로모션 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[시스템] 2021년 기획팀 경력직 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#"><strong>2021년 상반기 인사팀 경력 모집<strong></a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">시설 안전관리팀 경력직 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">재무팀 회계/결산팀 경력직 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">경력</td>
+                                        <td class="tit-notice">
+                                            <a href="#">2021년 디지털 컨설팅 경력직 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+        
+                            </div>
+                        </div> <!--ntc-list-->
+                    </div>
+                    <!-- #tab3 -->
+        
+                    <h3 class="tab_drawer_heading" rel="tab4">인턴</h3>
+                    <div id="tab4" class="tab_content">
+                        <div class="ntc-list" id="ntc-list">
+                            <!--게시글 리스트--> 
+                            <div class="notice-list-inner">
+        
+                            <table>
+                                <thead class="support-tb-header">
+                                    <tr scope="col" class="support-tb-inner">
+                                        <td>분류</td>
+                                        <td>제 목</td>
+                                        <td>접수기한</td>
+                                        <td>비고</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="support-tbody-list">
+                                    <tr>
+                                        <td class="subject_type">인턴</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[해외영업] 2021년 상반기 채용연계형 인턴 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">D-20</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+        
+                            </div>
+                        </div> <!--ntc-list--> 
+                    </div>
+                    <!-- #tab4 --> 
+        
+                    <h3 class="tab_drawer_heading" rel="tab5">상시</h3>
+                    <div id="tab5" class="tab_content">
+                        <div class="ntc-list" id="ntc-list">
+                            <!--게시글 리스트--> 
+                            <div class="notice-list-inner">
+        
+                            <table>
+                                <thead class="support-tb-header">
+                                    <tr scope="col" class="support-tb-inner">
+                                        <td>분류</td>
+                                        <td>제 목</td>
+                                        <td>접수기한</td>
+                                        <td>비고</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="support-tbody-list">
+                                    <tr>
+                                        <td class="subject_type">상시</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[시스템] 모바일 개발팀 상시 신입/경력 모집</a>
+                                        </td>
+                                        <td class="txt_dDay">상시</td>
+                                        <td class="last">
+                                            <button type="button" onclick="">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">상시</td>
+                                        <td class="tit-notice">
+                                            <a href="#">[마케팅] 블로그/SNS 마케팅 컨텐츠 담당자 상시모집</a>
+                                        </td>
+                                        <td class="txt_dDay">상시</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subject_type">상시</td>
+                                        <td class="tit-notice">
+                                            <a href="#">2021년 경력직 상시채용 모집공고</a>
+                                        </td>
+                                        <td class="txt_dDay">상시</td>
+                                        <td class="last">
+                                            <button type="button">지원하기</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+        
+                            </div>
+                        </div> <!--ntc-list-->
+                    </div>
+                    <!-- #tab5 --> 
+                </div> <!-- .tab_container -->
+        
+            </div> <!--contents-inner-->
+            <div class="pagination">
+                <div class="pager-inner">
+                    <i class="fas fa-chevron-left-2x"></i>
+                    <a href="#" class="num" title="현재페이지">1</a>
+                    <a href="#" class="num" title="현재페이지">2</a>
+                    <a href="" class="next">다음</a>
+                </div>
+            </div>
+        
+        </section> <!-- container -->
+
+        <div id="footer">
+            <div class="footin">
+               <div class="adress">
+                    <p>사업자번호:218-81-00328 | 대표자 :우석형 | 주소 : 서울특별시 성동구 성수이로 24길 3</p>
+                    <p>Copyrights Sindoh Co. Ltd All Rights Reserved</p>
+               </div><!--End of adress-->
+                <div class="s_box">
+                        <select>
+                            <option label>SINDO FAMILY</option>
+                            <optgroup label="국내법인">
+                                <option value="#">&nbsp;-  신도SDR</option>
+                                <option value="#">&nbsp;-  신도시스템</option>
+                                <option value="#">&nbsp;-  신도중앙판매</option>
+                                <option value="#">&nbsp;-  신도DS판매</option>
+                                <option value="#">&nbsp;-  신도에이스</option>
+                            </optgroup>
+                            <optgroup label="해외법인">
+                                <option value="#">&nbsp;-  청도공장</option>
+                                <option value="#">&nbsp;-  중국판매법인</option>
+                                <option value="#">&nbsp;-  미국지사</option>
+                                <option value="#">&nbsp;-  하노이공장</option>
+                                <option value="#">&nbsp;-  베트남판매법인</option>
+                            </optgroup>
+                        </select>
+                </div><!--End of s_box-->
+                  
+            </div><!--footin-->
+        </div><!--footer-->
+    </div>
+
+    <script>
+        //J-Query Engain
+        // tabbed content
+        $(".tab_content").hide();
+        $(".tab_content:first").show();
+
+    /* if in tab mode */
+   $("ul.tabs li").click(function() {
+       
+     $(".tab_content").hide();
+     const activeTab = $(this).attr("rel"); 
+     $("#"+activeTab).fadeIn();		
+       
+     $("ul.tabs li").removeClass("active");
+     $(this).addClass("active");
+
+     $(".tab_drawer_heading").removeClass("d_active");
+     $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+     
+   });
+   /* if in drawer mode */
+   $(".tab_drawer_heading").click(function() {
+     
+     $(".tab_content").hide();
+     const d_activeTab = $(this).attr("rel"); 
+     $("#"+d_activeTab).fadeIn();
+     
+     $(".tab_drawer_heading").removeClass("d_active");
+     $(this).addClass("d_active");
+     
+     $("ul.tabs li").removeClass("active");
+     $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+   });
+   
+   
+   $('ul.tabs li').last().addClass("tab_last");
+   
+   </script>
+</body>
+</html>

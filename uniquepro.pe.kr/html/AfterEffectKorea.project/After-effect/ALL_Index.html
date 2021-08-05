@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>AftereffectKR</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/font.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"></script>
+    <script>
+        // Number-Counter JQ Script
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 4000
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <script>
+        //html 오픈시 Top고정에 Error생겨서 j-query로 고정
+        $(document).ready(function(){
+            $(window).scrollTop(0);
+        });
+    </script>
+    <div id="wrap">
+        <div id="container">
+            <!--첫번째 단(메인소개)-->
+            <section id="sct1">
+                <div class="main-intro">
+                    <div class="logo"></div>
+                    <div class="imac" data-trigger>
+                        <!--메인화면 퍼블_디자인-->
+                        <div class="main-image-code">
+                            <div class="main-header">
+                                <div class="sub-logo"></div>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-bolt"></i>Live</a></li>
+                                        <li><a href="#">contact</a></li>
+                                        <li><a href="#">login</a></li>
+                                        <li><a href="#">KOR</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--main design Typograph-->
+                            <div class="main-txt">
+                                <p>더 많은 영상기술을 알아가고 싶은 당신 <br>함께 공부해봐요!</p>
+                                <p>
+                                    독특한 기술을 가진 영상들과<br>
+                                    능력있는 기술자들의 서포트를 받고<br>
+                                    나만의 영상을 자랑해보아요
+                                </p>
+                            </div>
+                            <!--scroll icon/CSS-->
+                            <div class="scroll-icons">
+                                <div class="mouse"><div class="scroller"></div></div>
+                            </div>
+                        </div>
+                        <!--메인화면 퍼블_디자인-->
+                    </div>
+                </div>
+            </section>
+
+            <!--두번째 단(사이트소개)-->
+            <section id="sct2" data-trigger>
+                <div class="about-website-intro">
+                    <p class="overview">OVERVIEW</p>
+                    <P>
+                        영상편집 전반에 필요한 정보와 영상팁을 공유하는 방식의 영상 커뮤니티를 SNS의 <br>
+                        접근성과 전문성을 살린 홈페이지로 리디자인하였습니다.
+                    </P>
+                    <p>/</p>
+                    <p>
+                        기존의 댓글만 남기는 페이지 구조를 넘어서서 SNS와 youtube와 연동하여 접근성을 높혔으며<br>
+                        전문가들의 참여와 함께 SNS에서 인기가 많은 영상은 홈페이지에서 실시간으로 올라가는 기능을<br>
+                        추가하였습니다. 방대한 자료의 양때문에 검색에 한계가 있는 커뮤니티의 특성상, 원하는 자료를<br>
+                        쉽고 빠르게 찾을 수 있도록 검색방법과 범위 또한 넓힐수 있는 UI로 구성해보았습니다.
+                    </p>
+                </div>
+            </section>
+
+            <!--세번째 단(글자 설명_단/칼라 설명_단)-->
+            <section id="sct3" data-trigger>
+                <!--글자 설명_단-->
+                <div class="about-express-txt">
+                    <p class="typography">TYPOGRAPHY STYLE</p>
+                    <div class="exp-txt-cover">
+                        <p class="exp1"> <!--나눔스퀘어-->
+                            가
+                            <span>나</span> 
+                            A
+                            <span>a</span>
+                            <p class="line">|</p>
+                        </p>
+                        
+                        <p class="exp2"> <!--나눔스퀘어라운드-->
+                            가
+                            <span>나</span> 
+                            A
+                            <span>a</span>
+                        </p>
+                    </div>
+                    <div class="expression-txt">
+                        <p>나눔스퀘어</p>
+                        <p>/</p>
+                        <p>나눔스퀘어라운드</p>
+                    </div>      
+                </div>
+                
+                <!--칼라 설명_단(animation)-->
+                <div class="exp-color">
+                    <span class="color">COLOR</span>
+                    <div class="red-main-colors">
+                        <div class="round-col">
+                            <span class="cc round1"></span>
+                            <span class="cc round2"></span>
+                            <span class="cc round3"></span>
+                            <span class="cc round4"></span>
+                            <span class="cc round5"></span>
+                            <span class="cc round6"></span>
+                            <span class="cc round7"></span>
+                        </div>
+                        <p>MAIN COLOR</p>
+                    </div>
+                    
+                    <div class="SubColors">
+                        <div class="sub-color">
+                            <div class="round-navi">
+                            </div>
+                            <p>SUB COLOR</p>   
+                        </div>
+
+                        <div class="sub-color2">
+                            <div class="round-gray">
+                            </div>
+                            <p>SUB COLOR</p>   
+                        </div>
+                    </div>    
+                </div>
+            </section><!--sct3 단-->
+
+            <!--네번째 단(그리드 시스템 설명_단)-->
+            <section id="sct4" >
+                <div class="sctin" data-trigger>
+                    <p class="grid-tit">GRID SYSTEM</p>
+                    <div class="grid-img-system-line">
+                        
+                        <div class="-all-moving-line ml">
+                            <p class="px-size">1200px</p>
+                            <div class="test-box">
+                                <span class="moving-line ml"></span>
+                            </div>
+                        </div>
+                        <div class="grid-system">
+                            <div class="grid-img"></div>
+                        </div>
+                        <div class="px-line">
+                            <div class="i i1"></div>
+                            <div class="i i2"></div>
+                            <div class="i i3"></div>
+                            <div class="i i4"></div>
+                            <div class="i i5"></div>
+                            <div class="i i6"></div>
+                            <div class="i i7"></div>
+                            <div class="i i8"></div>
+                            <div class="i i9"></div>
+                            <div class="i i10"></div>
+                            <div class="i i11"></div>
+                            <div class="i i12"></div>
+                            <div class="i i13"></div>
+                            <div class="i i14"></div>
+                            <div class="i i15"></div>
+                            <div class="i i16"></div>
+                            <div class="i i17"></div>
+                            <div class="i i18"></div>
+                        </div>
+                    </div><!--grid-img-system-line-->
+                </div>
+            </section>
+            <!--다섯번째 단(전체 사이트 페이지보여주기_단)-->
+            <section id="sct5">
+                <div class="sctin" data-trigger>
+                    <div class="sctin-site-box">
+                        <div class="sc-cover">
+                            <p>ㅡ</p>
+                            <p>찾고싶은 영상을 검색해봐</p>
+                            <div class="search-body">
+                                <div class="search-box">
+                                    <div class="search-box-cover"></div>
+                                        <input type="text" autofocus class="search-txt" placeholder="검색해주세요"/>
+                                        <a href="#" class="search-btn">
+                                            <i class="fas fa-search fa-2x"></i>
+                                        </a>		
+                                </div>
+                            </div>
+    
+                            <div class="search-Data">
+                                <div class="search-hashtag">
+                                    <ul class="hashtag-txt">
+                                        <li>#타이포그래프</li>
+                                        <li>#Light_wrap</li>
+                                        <li>#모션그래픽</li>
+                                        <li>#여행</li>
+                                        <li>#animal</li>
+                                        <li>#인포그래픽</li>
+                                        <li>#인싸영상</li>
+                                        <li>#타이포그래픽</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- sc-cover -->   
+                        <div class="video-popularity">
+                            <div class="vd-cover">
+                                <div class="best-vd">
+                                    <p>베스트 영상</p>
+                                    <iframe width="100%" height="210px" src="https://www.youtube.com/embed/4GGI5l8_sNU" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+        
+                                <div class="issue-vd">
+                                    <p>Hot 이슈</p>
+                                    <iframe width="100%" height="210px" src="https://www.youtube.com/embed/E-d1qj3ed2s" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div><!-- video-popularity -->
+                        <!--bannner-->
+                        <div class="Banner">
+                            <div class="banner-cover">
+                            <p class="bn-txt">
+                            법인시각예술향유공간 X 에프터이펙트코리아
+                            </p>
+                            </div>
+                        </div>
+                        <!--sns소식-->
+                        <div class="SNS">
+                            <div class="sns-txt">
+                                <p>ㅡ</p>
+                                <p>SNS소식</p>
+                            </div>
+                            <div class="sns-content">
+                                <ul class="video-slide">
+                                    <a href="#" class="sns-blank">
+                                        <iframe width="100%" height="118px" src="https://www.youtube.com/embed/-bde6aoRHzg" 
+                                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen>
+                                        </iframe>
+                                        <div class="explain-bx">
+                                            <p class="mainPage-vd-title">딘의 instagram-타이포그래픽 영상제작(개인제작이에요)</p><!--data-->
+                                            <p class="user-id">by 이_정호</p><!--data-->
+                                            <p class="views-vd">조회수 3.5만</p><!--data-->
+                                        </div>
+                                    </a>
+                                    <a href="#" class="sns-blank">
+                                        <iframe width="100%" height="118px" src="https://www.youtube.com/embed/tdXY3BoLYDQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="explain-bx">
+                                            <p class="mainPage-vd-title">독도 (Dokdo) 모션그래픽 홍보영상</p><!--data-->
+                                            <p class="user-id">Jehyeon Yu</p><!--data-->
+                                            <p class="views-vd">조회수 21만</p><!--data-->
+                                        </div>
+                                    </a>
+                                    <a href="#" class="sns-blank">
+                                        <iframe width="100%" height="118px" src="https://www.youtube.com/embed/iDjQSdN_ig8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="explain-bx">
+                                            <p class="mainPage-vd-title">[키네틱 타이포] 오마이걸_살짝 설랬어</p><!--data-->
+                                            <p class="user-id">채찬희</p><!--data-->
+                                            <p class="views-vd">조회수 38만</p><!--data-->
+                                        </div>
+                                    </a>
+                                    <a href="#" class="sns-blank">
+                                        <iframe width="100%" height="118px" src="https://www.youtube.com/embed/cq67H2s5ce0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="explain-bx">
+                                            <p class="mainPage-vd-title">모나미 광고 모션그래픽 포트폴리오 - 상상하라!</p><!--data-->
+                                            <p class="user-id">조스타TV</p><!--data-->
+                                            <p class="views-vd">조회수 1.3만</p><!--data-->
+                                        </div>
+                                    </a>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!--현재진행형-->
+                        <div class="contents">
+                            <div class="Current-progress">
+                                <div class="progress-txt">
+                                    <p>ㅡ</p>
+                                    <p>현재진행형</p>
+                                </div>
+                                <div class="join-people">
+                                    <div class="join-people-cover">
+                                        <div class="youtuber">
+                                            <p>참여YouTuber</p>
+                                            <div class="yt-img"></div>
+                                            <span class="num-data1 counter">258</span>
+                                        </div>
+                                        <span></span><!--line-->
+                                        <div class="update-num"> 
+                                            <p>업데이트영상</p>
+                                            <div class="update-img"></div>
+                                            <span class="num-data2 counter">2,864,800</span>
+                                        </div>
+                                        <span></span><!--line-->
+                                        <div class="people-num">
+                                            <p>회원수</p>
+                                            <div class="people-img"></div>
+                                            <span class="num-data counter">51,073</span>
+                                        </div>
+                                        <!--Counter Script-->
+                                        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+                                        <script src="./js/jquery.counterup.min.js"></script>
+                                    </div><!-- join-people-cover -->
+                                </div> <!-- join-people -->
+                            </div>
+                        </div><!-- contents -->
+                        <!--공지 및 정보게시판-->
+                        <div class="notice">
+                            <div class="notice-txt">
+                                <p>ㅡ</p>
+                                <p>NOTICE</p>
+                            </div>
+                            <div class="notice-cover" data-trigger>
+                                <div class="Infor-1"><a href="#"></a></div>
+                                <div class="Infor-2"><a href="#"></a></div>
+                            </div>    
+                        </div><!--notice-->
+
+                        <footer class="footer">
+                            <div class="footer-cover">
+                                <div class="footer-main-logo"></div>
+            
+                                <div class="middle-footer-stuff">
+                                    <ul class="f-menu">
+                                        <li>문의</li>
+                                        <li>사이트맵</li>
+                                        <li>Q&A</li>
+                                        <li>저작권취급방침</li>
+                                    </ul>
+            
+                                    <div class="copyright">
+                                        <p class="txt-cr">
+                                            create by kate Hwang<br>
+                                            COPYRIGHT ⓒ 2020 After effect korea.ALL RIGHTS RESERVED.
+                                        </p>
+                                    </div>
+            
+                                </div><!--middle-footer-stuff-->
+            
+                                <div class="youtube-service">
+                                    <div class="yt-logo"></div>
+                                    <p class="service-txt">
+                                        본 영상들은 <br>
+                                        Youtube에서 서비스되어<br>
+                                        재생되오니 참고 바랍니다.
+                                    </p>
+                                </div>                    
+                            </div><!--footer cover-->
+                        </footer>
+
+                    </div> <!-- sctin-site-box -->
+                </div> <!-- sctin -->
+                <div class="sctin-red"></div>
+                
+            </section>
+
+            <div id="sct6"></div>
+            
+        </div> <!--End of container-->
+    </div> <!--End of Wrap-->
+    <script src="./js/Trigger.js"></script>
+</body>
+</html>

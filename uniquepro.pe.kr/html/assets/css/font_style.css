@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*web-fonts-face Style*/
+
+/*Font : Segoe UI*/
+/* [0] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ 400.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [1] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Black\ 900.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [2] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Black\ Italic\ 900.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [3] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Gras\ 700.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [4] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Gras\ Italique\ 700.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [5] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Italique\ 400.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [6] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Light\ 300.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [7] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Light\ Italic\ 300.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [8] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Semibold\ 600.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [9] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Semibold\ Italic\ 600.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [10] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Semilight\ 350.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
+
+/* [11] */
+@font-face { 
+    font-family: 'Segoe'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-display: swap;  
+    src: url('../font/Segoe\ UI\ Semilight\ Italic\ 350.woff') format('woff');  
+    unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}

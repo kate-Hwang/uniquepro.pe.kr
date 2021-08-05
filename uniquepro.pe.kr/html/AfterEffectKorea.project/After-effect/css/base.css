@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*CSS DOCUMENTS*/
+
+/*나눔고딕폰트*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:12px;
+    color:#121212;
+}
+
+/*전체구성에서 바깥여백 및 안쪽 여백의 값 제거*/
+*{margin:0; padding:0}
+
+/* 전체 리스트스타일구성제거*/
+ol, ul, li{list-style-type:none}
+
+/* 전체 a태그스타일 구성*/
+a{color:#000; text-decoration: none}
+
+/* 전체 이미지 스타일 구성*/
+img{border:none; vertical-align: bottom}

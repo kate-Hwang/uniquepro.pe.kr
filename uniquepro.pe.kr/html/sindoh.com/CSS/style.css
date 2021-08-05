@@ -1,0 +1,410 @@
+@charset "utf-8";
+
+#wrapper{ width: 100%; height: auto; }
+/*상단부분 - header,nav,menu*/
+#header{
+    position:absolute;
+    width: 100%;
+}
+.header-line{
+    position: absolute;
+    width: 100%;
+    height: 79px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    z-index: 30;
+}
+#headerin{
+    max-width: 1150px;
+    height: 79px;
+    margin: 0 auto;
+}
+.header-inner{ padding: 10px 0; }
+/*header MENU styling*/
+.logo{ 
+    position: relative;
+    width: 155px;
+    height: 32px;
+    margin:17px 0;
+    display: inline;
+    z-index: 30;
+}
+.menu{ 
+    position: relative;
+    top: 50%;
+    text-align: center;
+    display: inline;
+    left: 41.5%;
+    z-index: 30;
+    font-size: 0;
+}
+.menu_cnt {
+    display: inline-block;
+    height: 38px;
+    overflow: hidden;
+}
+.menu_cnt:hover{ overflow: visible; }
+.menu_cnt:hover ul{ display: block; opacity: 1; }
+.menu:hover + div{ height: 460px; opacity: 1; }
+.menu + div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+    background-color: #042e6f;
+    z-index: 20;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.menu > ul > li{
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+}
+.menu > ul > li > a{
+    display: block;
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    line-height: 60px;
+    width: 130px;
+    height: 70px;
+}
+.menu > ul > li:hover > a:after{ left: 0; width: 100%; }
+.menu > ul > li > a:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.menu > ul > li > ul {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    padding: 15px 0 0;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.menu > ul > li > ul a{
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.menu > ul > li > ul a:hover{ color:#2acef1; }
+.menu > ul > li > ul a:hover:after{ left: 0; width: 100%; }
+.menu > ul > li > ul a:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 3px;
+    background-color: #2acef1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.dexth li {line-height: 35px; }
+/* - - - - - - - - - */
+.home {
+    display:block;
+    width:22px;
+    height: 19px;
+    background: url(../IMG/home-button.png)no-repeat center/ 19px 19px;
+}
+.utill{
+    position: absolute;
+    /* width: 208px; */
+    min-width: 41%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.utill li{
+    float: left;
+    margin: 0 17px;
+    font-size: 17px; 
+    line-height: 18px;
+}
+.utill > ul > li .Search-icn{
+    display: inline-block;
+    width:22px;
+    height: 19px;
+    background: url(/IMG/search_icon_2.png)no-repeat center/ 19px 19px;
+}
+.Sindoh-NEWS-text{font-style: italic; font-weight: 700;}
+.utill li a{color: #fff;}
+/*main-contents Swiper-Slide images */
+#container{ width: 100%; height: 100vh;}
+.cont1{ width: 100%; height: 100%; }
+.main_text{
+    position: absolute;
+    width:520px;
+    height:114px;
+    text-align: left;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+/* slide image styling */
+.main_bm_list {
+    position: relative;
+    /* top: -90px; */
+    width: auto;
+    z-index: -20;
+    height: 100vh;
+}
+.main_bm_list > ul img{
+    position: absolute;
+    z-index: -20;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+/*Swiper Slide CSS styling*/
+    .swiper-container { width: 100%; height: 100%; }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flow-root;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-wrapper{ width: 100%; height: 100%;}
+    .swiper-slide img {
+        width: 100%; 
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* main style menu */
+    .main-conts{
+        position: absolute;
+        min-width: 1150px;
+        min-height: 75%;
+        top: -18%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        -webkit-transform: translate(-50%,50%);
+        -moz-transform: translate(-50%,50%);
+        -ms-transform: translate(-50%,50%);
+        -o-transform: translate(-50%,50%);
+}
+    /*clickbox*/
+    .cont2{
+        position: absolute;
+        width: 334px;
+        height: auto;
+        top: 155px;
+        right: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+    /*신도blog*/
+    .depth1 {
+        float: right;
+        width: 167px;
+        height: 155px;
+    }
+    .depth1 a{
+        position: absolute;
+        display: block;
+        width: 167px;
+        height: 155px;
+        background: url(../IMG/blog_img.png)no-repeat;
+        text-indent: -9999px; 
+    }
+    /*협력업체box*/
+    .depth2{
+        width: 167px;
+        height: 155px;
+        float: right;   
+    }
+    .depth2 a{
+        display: block;
+        width: 167px;
+        height: 155px;
+        background: #334952;
+        text-indent: -9999px;
+    }
+    .depth2 a img{
+        position: absolute;
+        display: block;
+        margin: 31px auto 0 43px;
+    }
+    /*문화갤러리box*/
+    .depth3{
+        width: 167px;
+        height: 155px;
+        float: right;
+        clear: both;
+    }
+    .depth3 a{
+        display: block;
+        width: 167px;
+        height: 155px;
+        background: url(../IMG/sindo_gallery.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .cont3{
+        position: absolute;
+        width:auto;
+        height: auto;
+        top: 510px;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    /*다운로드box*/
+    .depth4 {
+        width: 167px;
+        height: 155px;
+        clear: both;
+    }
+    .depth4 a{
+        position: absolute;
+        display: block;
+        width: 167px;
+        height: 155px;
+        background: url(../IMG/icon_download.png)44px no-repeat;
+        background-color: #717171;
+    }
+    /*고객지원 Support box*/
+    .depth5{
+        float:left;
+        width: 167px;
+        height: 155px; 
+        background-color: #6ab443; 
+    }
+    .depth5 a{
+        display: block;
+        width: 167px;
+        height: 155px;
+        letter-spacing: 2px;
+        color: white;
+        background: url(../IMG/support.png)40px 60px no-repeat;
+        }
+    /*인재채용box*/
+    .depth6{
+        float: left;
+        width: 167px;
+        height: 155px;
+        background-color: #006da4;
+    }
+    .depth6 a{
+        display: block;
+        position: absolute;
+        width: 167px;
+        height: 155px;
+        background: url(../IMG/hire_.png)40px 60px no-repeat;
+    }
+    .depth6 a img{
+        position: absolute;
+        display: block;
+        margin: 65px auto 0 43px; }
+
+    /*뉴스/소식box*/
+    .depth7{
+        float:right;
+        width: 167px;
+        height: 155px;
+    }
+    .depth7 a{
+        position: absolute;
+        display: block;
+        width: 167px;
+        height: 155px;
+        background: #fff;
+        text-indent: -9999px;
+        }
+    .depth7 a img{
+        position: absolute;
+        display: block;
+        margin: 65px auto 0 51px; 
+    }
+
+    /*footer 부분*/
+    #footer{
+        width: 100%;
+        height: 8vh;
+        background: #262626;
+        padding: 6vh 0 ;
+    }
+    .footin{
+        max-width: 1220px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .adress{ min-width: 83.8%; padding-left: 16px; }
+    .adress > p{margin: 15px 0; color: darkgray;}
+    /*Select Box cover div*/
+    .s_box{
+        width: 137px;
+        height: 32px;
+        margin-top: 35px;
+    }
+    .s_box > select{padding-left:7px}
+    .s_box select{
+        width: 135px;
+        height:33px;
+        font-family: "NanumGothic";
+        background: url(../IMG/footer_up_arrow.png)no-repeat 95% 50%;
+        /*네이티브화살표대체*/
+        border:0.5px solid lightgray;
+        font-size: 14px;
+        font-weight: 700;
+        color:lightgray;
+        /*브라우저-둥근모서리제거*/
+        border-radius: 0px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /*네이티브외형감추기*/
+        border-radius:0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./sindo_support.html">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>Sindoh</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container"> 
+            <div id="header">
+                <span class="header-line"></span>
+                <div id="headerin">
+                    <div class="header-inner">
+                        <img class="logo" src="./IMG/logo-2.png">
+                        <nav class="menu">
+                            <ul class="menu_cnt">
+                            <li><a href="#">기업소개</a>
+                                <ul class="dexth">
+                                    <li><a href="#">신도리코</a></li>
+                                    <li><a href="#">친환경경영</a></li>
+                                    <li><a href="#">신도리코人</a></li>
+                                    <li><a href="#">문화공간</a></li>
+                                </ul>
+                            </li><!--End of 기업소개-->
+                                
+                            <li><a href="#">제품정보</a>
+                                <ul class="dexth">
+                                    <li><a href="#">솔루션</a></li>
+                                    <li><a href="#">팩시밀리</a></li>
+                                    <li><a href="#">복합기/프린트</a></li>
+                                    <li><a href="#">UV프린트</a></li>
+                                    <li><a href="#">3D Printer</a></li>
+                                    <li><a href="#">대형디지털복합기</a></li>
+                                    <li><a href="#">정부조달품목</a></li>
+                                    <li><a href="#">소모품</a></li>
+                                </ul>
+                            </li><!--End of 제품정보-->
+                                
+                            <li><a href="#">인재채용</a>
+                                <ul class="dexth">
+                                    <li><a href="#">인재상</a></li>
+                                    <li><a href="#">인사제도</a></li>
+                                    <li><a href="#">인재육성</a></li>
+                                    <li><a href="/html/sindoh.com/sindo_support.html">채용공고</a></li>
+                                    <li><a href="#">합격자발표</a></li>
+                                    <li><a href="#">채용문의</a></li>
+                                </ul>        
+                            </li><!--End of 인재채용-->
+                            <div class="icon"><a href="#"></a></div>
+                            </ul>  
+
+                            <div class="utill">
+                                <ul>
+                                    <li><a href="#" class="home"></a></li>
+                                    <li><a href="#" class="Sindoh-NEWS-text">S-News</a></li>
+                                </ul>
+                            </div><!--End of utill-->
+                        </nav><!--End of menu-->
+                        <div></div>
+                    </div><!--header-inner--> 
+                </div> <!-- headerin --> 
+            </div><!--End of header-->
+
+            <div class="cont1">
+                <div class="main_bm_list"><!--본 메인이미지-->
+                        <!-- Swiper Slide -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="/html/sindoh.com/IMG/main_img_3.png" alt="새로운제품"></div>
+                                <div class="swiper-slide"><img src="/html/sindoh.com/IMG/main_img_1.png" alt="신도리코회사"></div>
+                                <div class="swiper-slide"><img src="/html/sindoh.com/IMG/main_img_2.png" alt="친환경경영"></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                </div><!--End of main_bm_list-->
+                <!-- Swiper JS -->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: false,
+                        autoplay: {
+                            delay: 15000,
+                            disableOnInteraction: false,
+                        },
+                    });
+                </script>
+            </div><!--End of cont1-->
+ 
+                <div class="main-conts">
+                    <span class="main_text">새로운 시대를 창조하다<br>3D의 혁명</span>
+                    <div class="cont2">
+                        <div class="depth1"><a href="https://www.sindohblog.com/" target="_blank">블로그</a></div>
+                        <div class="depth2"><a href="#"><img class="ic_txt" src="./IMG/icon_txt.png">협력업체</a></div><!--협력업체-->
+                        <div class="depth3"><a href="#">문화갤러리</a></div>
+                    </div><!--End of cont2-->
+                        
+                    <div class="cont3">
+                        <div class="depth4"><a href="#"></a></div>
+                        <div class="depth6"><a href="/html/sindoh.com/sindo_support.html"></a></div>
+                        <div class="depth5"><a href="#"></a></div>
+                        <!-- <div class="depth7"><a href="#">NEWS</a></div> -->
+                    </div><!--End of cont3-->
+                </div> <!-- main-conts -->
+
+        </div><!--End of container-->
+
+        <div id="footer">
+            <div class="footin">
+               <div class="adress">
+                    <p>사업자번호:218-81-00328 | 대표자 :우석형 | 주소 : 서울특별시 성동구 성수이로 24길 3</p>
+                    <p>Copyrights Sindoh Co. Ltd All Rights Reserved</p>
+               </div><!--End of adress-->
+            
+                <div class="s_box">
+                    <select>
+                        <option label>SINDO FAMILY</option>
+                        <optgroup label="국내법인">
+                            <option value="#">&nbsp;-  신도SDR</option>
+                            <option value="#">&nbsp;-  신도시스템</option>
+                            <option value="#">&nbsp;-  신도중앙판매</option>
+                            <option value="#">&nbsp;-  신도DS판매</option>
+                            <option value="#">&nbsp;-  신도에이스</option>
+                        </optgroup>
+                        <optgroup label="해외법인">
+                            <option value="#">&nbsp;-  청도공장</option>
+                            <option value="#">&nbsp;-  중국판매법인</option>
+                            <option value="#">&nbsp;-  미국지사</option>
+                            <option value="#">&nbsp;-  하노이공장</option>
+                            <option value="#">&nbsp;-  베트남판매법인</option>
+                        </optgroup>
+                    </select>
+                </div><!--End of s_box-->
+                  
+            </div><!--footin-->
+        </div><!--footer-->
+    </div><!--End of wrapper-->
+
+</body>
+
+</html>
