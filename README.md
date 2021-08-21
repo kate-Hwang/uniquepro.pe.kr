@@ -7,15 +7,19 @@
 ### 보유 기술
 - 언어
   - **JavaScript**: 중급
+  - **Github**: 중급
+  - **Github**: 중급
 - 기타
   - **Github**: 중급
+  - **Github**: 중급
+  - **Github**: 중급
+  - **Github**: 중급
 
-#### Boostcamp iOS 교육
-
+#### 연수 교육
 - 
 -  
 - 교육내용
-  - 팀 프로젝트([어플리케이션]((https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)))
+  - 팀 프로젝트([어플리케이션])
 
 ___
 
@@ -35,11 +39,10 @@ ___
 - 구현방법소개
 - 구현방법소개
 
-## [Sindoh - 신도리코 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
+## [Sindoh - 신도리코 회사 홍보 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
-**신도리코 회사 홍보 웹사이트 리뉴얼**
-
-[프로젝트 리포지터리](https://github.com)
+기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현하였습니다.
+[신도리코 기존 회사사이트](https://www.sindoh.com/index.do?uk=ko)
 
 ### 사용한 기술
 - `Swift 3`, `Xcode 8`
@@ -81,7 +84,7 @@ ___
 
 ## [After effect Korea - 영상커뮤니티 웹사이트](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
 
-**After effect Korea - 영상커뮤니티 웹사이트**
+SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구현하였습니다.
 
 ### 사용한 기술
 - `Objective-C`, `Swift`, `Xcode 9`
