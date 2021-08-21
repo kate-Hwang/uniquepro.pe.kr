@@ -34,8 +34,8 @@ ___
 
 ### 주요 프로젝트
 
-## [GestureVideoPlayer - 네이버 핵데이 2018 프로젝트](https://www.youtube.com/?gl=KR)
-프로젝트 소개 내용입니다.
+## [팀 프로젝트 - Project STUCO](https://github.com/kate-Hwang/Project-Stuco)
+공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다.
 
 ### 사용한 기술
 - `Swift 4`, `Xcode 9`
