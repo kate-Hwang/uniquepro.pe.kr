@@ -21,14 +21,7 @@
 - 
 -  
 - 교육내용
-  - iOS Programming Guide
-  - The Swift Programming Guide
-  - HIG
-  - 아론 힐리가스의 iOS 프로그래밍
-  - 모둠/개인 과제를 통한 iOS 심화 과정
-  - Git 심화
   - 팀 프로젝트([Picka - 사진 관리 어플리케이션]((https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)))
-- [Boostcamp 리포지터리](https://github.com)
 
 ___
 
@@ -48,9 +41,9 @@ ___
 - 구현방법소개
 - 구현방법소개
 
-## [Picka - 사진 관리 어플리케이션]()
+## [Sindoh - 신도리코 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
-**사진을 모아주고 정리하는 것을 도와주는 어플리케이션**
+**신도리코 회사 홍보 웹사이트 리뉴얼**
 
 [프로젝트 리포지터리](https://github.com)
 
