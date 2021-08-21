@@ -1,7 +1,4 @@
-# uniquepro.pe.kr
-about Publishing and introduce myself
-
-# 유준상
+# 황지영
 
 ### 개인정보
 - [Github](https://github.com/kate-Hwang)
