@@ -10,24 +10,18 @@
 - 기타
   - **Github**: 중급
 
-### 경력
-
-- 네이버 웹툰: 2019.01 ~
-
-
-
 #### Boostcamp iOS 교육
 
 - 
 -  
 - 교육내용
-  - 팀 프로젝트([Picka - 사진 관리 어플리케이션]((https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)))
+  - 팀 프로젝트([어플리케이션]((https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)))
 
 ___
 
 ### 주요 프로젝트
 
-## [팀 프로젝트 - Project STUCO](https://github.com/kate-Hwang/Project-Stuco)
+## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다.
 
 ### 사용한 기술
@@ -85,9 +79,9 @@ ___
 
 <img src="images/Picka_main.png" width="140" hspace="2"> <img src="images/Picka_detail.png" width="140" hspace="2"> <img src="images/Picka_temp.png" width="140" hspace="2">
 
-## [Vlogr](https://itunes.apple.com/kr/app/vlogr/id1179975615?mt=8)
+## [After effect Korea - 영상커뮤니티 웹사이트](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
 
-**일상을 전달하는 Vlog 소셜 네트워크**
+**After effect Korea - 영상커뮤니티 웹사이트**
 
 ### 사용한 기술
 - `Objective-C`, `Swift`, `Xcode 9`
