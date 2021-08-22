@@ -36,7 +36,7 @@ ___
 
 ### 사용한 기술
 - `Swift 3`, `Xcode 8`
-- `Photos`, `Image Caching`, `Animation`, `Localization`, `Delegate pattern`, `Notification`, `Observer`
+- `Photos`, `Image Caching`
 
 ### 수행 역할
 - `Auto Layout`과 `Interface Builder`를 통한 UI 구현.
@@ -78,8 +78,7 @@ SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구�
 
 ### 사용한 기술
 - `Objective-C`, `Swift`, `Xcode 9`
-- `CALayer`, `CoreLocation`, `Delegate Pattern`, `Notification`, `Observer`, `Singleton Pattern`
-- `Parse` 
+- `CALayer`, `CoreLocation`
 
 ### 수행 역할
 - 재사용되는 코드를 묶어서 관리
