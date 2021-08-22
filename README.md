@@ -27,7 +27,7 @@ ___
 
 ## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다.
-[Project STUCO 레파지스토리](https://github.com/kate-Hwang/Project-Stuco)
+[→Project STUCO 레파지스토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
 ### 수행 역할
 - 구현방법소개
@@ -38,7 +38,7 @@ ___
 ## [Sindoh - 신도리코 회사 홍보 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
 기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현하였습니다.
-[신도리코 기존 회사사이트](https://www.sindoh.com/index.do?uk=ko)
+[→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
 
 ### 사용한 기술
 - `Swift 3`, `Xcode 8`
