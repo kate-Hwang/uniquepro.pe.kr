@@ -27,6 +27,11 @@ ___
 
 ## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다.
+
+### 사용한 기술
+- `HTML5`, `CSS`, `J-Query`, `JavaScript`
+- `Adobe XD`, `Photoshop`, `github`
+
 #### [→Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
 
