@@ -6,14 +6,14 @@
 
 ### 보유 기술
 - 언어
-  - **JavaScript**: 중급
-  - **Github**: 중급
-  - **Github**: 중급
+  - **JavaScript** 
+  - **J-Query**
+  - **HTML5** , **CSS**
 - 기타
-  - **Github**: 중급
-  - **Github**: 중급
-  - **Github**: 중급
-  - **Github**: 중급
+  - **Github**
+  - **Github**
+  - **Github**
+  - **Github**
 
 #### 연수 교육
 - 
