@@ -36,7 +36,7 @@ ___
 - 디자인툴 : `Adobe XD`, `Photoshop` acts.
 
 ### 수행 역할
-- `J-Qeury Plugin`과 `CSS Animation`를 통한 UI 구현.
+- `J-Qeury Plugin`과 `CSS Animation`를 통한 동적인 UI 구현.
 - `UITableView` 사진 이미지 비동기적으로 받아와 나타내기.
 - `CLGeocoder`를 통한 사진의 위치 표시.
 
