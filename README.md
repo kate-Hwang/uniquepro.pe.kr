@@ -19,13 +19,9 @@ ___
 ### 주요 프로젝트
 
 ## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
-공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다.
+공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 있습니다. 
 
-### 사용한 기술
-- `HTML5`, `CSS`, `J-Query`, `JavaScript`
-- `Adobe XD`, `Photoshop`
-
-#### [→Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
+#### [ → Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
 <img src="images/Picka_main.png" width="140" hspace="2">
 
@@ -37,10 +33,10 @@ ___
 
 ### 사용한 기술
 - 개발 툴 :`HTML5`, `CSS`, `J-Query`, `JavaScript`
-- 디자인툴 : `Adobe XD`, `Photoshop`
+- 디자인툴 : `Adobe XD`, `Photoshop` acts.
 
 ### 수행 역할
-- `Auto Layout`과 `Interface Builder`를 통한 UI 구현.
+- `J-Qeury Plugin`과 `CSS Animation`를 통한 UI 구현.
 - `UITableView` 사진 이미지 비동기적으로 받아와 나타내기.
 - `CLGeocoder`를 통한 사진의 위치 표시.
 
@@ -78,14 +74,12 @@ ___
 SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구현하였습니다.
 
 ### 사용한 기술
-- `Objective-C`, `Swift`, `Xcode 9`
-- `CALayer`, `CoreLocation`
+- 개발 툴 :`HTML5`, `CSS`, `J-Query`, `JavaScript`
+- 디자인툴 : `Adobe XD`, `Photoshop` acts.
 
 ### 수행 역할
-- 재사용되는 코드를 묶어서 관리
+- `J-Qeury Plugin`과 `CSS Animation`를 통한 UI 구현.
   - 공통적으로 쓰이는 `UITableViewCell`들을 `nib`파일로 묶어 재사용성 증대.
-  - `PushNotification`, `BlockUsers(불량 유저를 막는 기능)` 등 공통적으로 쓰이는 요소를 하나의 `Singleton Pattern`을 적용.
-  - 여러 `UITableView`의 `dataSource`를 하나의 `ViewModel` 객체로 만들어 각각의 인스턴스로 관리.
 - 동영상 전체화면으로 전환시 `UIModalPresentationStyle`의 `overFullScreen`을 적용해 아래의 뷰가 자연스럽게 흐려지도록 구현.
 - 좋아요 갯수를 표시하는 화면에서 느리게 받아오는 문제를 `UITableViewDelegate` 메소드인 `willDisplay` 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
 - 온/오프라인, 로그인/둘러보기 관계없이 `BlockUsers` 싱글턴 객체로 `UserDefaults`를 이용해 로컬에 저장했다가 서버에 업로드 시 서버와 싱크를 맞춰줌.
@@ -97,6 +91,6 @@ SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구�
 
 #### 스크린샷
 
-<img src="images/Vlogr_select.jpg" width="150" hspace="2"> <img src="images/Vlogr_edit.jpg" width="150" hspace="2"> <img src="images/Vlogr_info.jpg" width="150" hspace="2"> <img src="images/Vlogr_timeline.jpg" width="150" hspace="2">
+<img src="images/Vlogr_select.jpg" width="150" hspace="2"> <img src="images/Vlogr_edit.jpg" width="150" hspace="2">
 
 
