@@ -27,6 +27,8 @@ ___
 
 #### [→Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
+<img src="images/Picka_main.png" width="140" hspace="2">
+
 
 ## [Sindoh - 신도리코 회사 홍보 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
