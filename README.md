@@ -23,7 +23,7 @@ ___
 
 ### 사용한 기술
 - `HTML5`, `CSS`, `J-Query`, `JavaScript`
-- `Adobe XD`, `Photoshop`, `github`
+- `Adobe XD`, `Photoshop`
 
 #### [→Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
@@ -36,8 +36,8 @@ ___
 [→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
 
 ### 사용한 기술
-- `Swift 3`, `Xcode 8`
-- `Photos`, `Image Caching`
+- 개발 툴 :`HTML5`, `CSS`, `J-Query`, `JavaScript`
+- 디자인툴 : `Adobe XD`, `Photoshop`
 
 ### 수행 역할
 - `Auto Layout`과 `Interface Builder`를 통한 UI 구현.
