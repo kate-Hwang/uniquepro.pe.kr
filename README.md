@@ -11,9 +11,8 @@
   - **HTML5** , **CSS**
 - 기타
   - **Github**
-  - **Github**
-  - **Github**
-  - **Github**
+  - **design tools(photoshop,illustration, act)**
+  - **Zeplin** , **Adobe XD**
 
 ___
 
