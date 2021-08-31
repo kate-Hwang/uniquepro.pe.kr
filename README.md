@@ -20,7 +20,7 @@ ___
 ### 포폴 주요 프로젝트
 
 ## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
-공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 기획과 제작 구현
+공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지로 기획과 제작 구현
 
 #### [ → Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
@@ -38,8 +38,6 @@ ___
 
 ### 수행 역할
 - `J-Qeury Plugin`과 `CSS Animation`를 통한 동적인 UI 구현.
-- `UITableView` 사진 이미지 비동기적으로 받아와 나타내기.
-- `CLGeocoder`를 통한 사진의 위치 표시.
 
 ### Trouble Shooting
 -  비동기적 요청으로 인한 재사용 이슈
@@ -68,10 +66,10 @@ SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구�
 
 ### 수행 역할
 - `J-Qeury Plugin`과 `CSS Animation`를 통한 UI 구현.
-  - 공통적으로 쓰이는 `UITableViewCell`들을 `nib`파일로 묶어 재사용성 증대.
-- 동영상 전체화면으로 전환시 `UIModalPresentationStyle`의 `overFullScreen`을 적용해 아래의 뷰가 자연스럽게 흐려지도록 구현.
-- 좋아요 갯수를 표시하는 화면에서 느리게 받아오는 문제를 `UITableViewDelegate` 메소드인 `willDisplay` 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
-- 온/오프라인, 로그인/둘러보기 관계없이 `BlockUsers` 싱글턴 객체로 `UserDefaults`를 이용해 로컬에 저장했다가 서버에 업로드 시 서버와 싱크를 맞춰줌.
+- 상세페이지 디자인을 퍼블리싱으로 최대한으로 표현함
+- `J-Qeury Plugin` UI 활용도
+   - `count-up` 쿼리플러그인을 사용하여 데이터를 직접적으로 표현해줌
+   - `` 쿼리플러그인을 사용하여 데이터를 직접적으로 표현해줌
 - 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
 - 로그인 화면 구성 시 `UIStackView`에 `View`를 넣었다 빼는 애니메이션 적용
 - `AppAuth` 라이브러리를 사용해 구글로 `OAuth` 적용 후 YouTube 업로드 기능 추가
