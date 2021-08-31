@@ -18,7 +18,7 @@ ___
 
 ### 포폴 주요 프로젝트
 
-## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
+## * [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지의 의미를 두고 기획과 제작 구현
 
 #### [ → Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
