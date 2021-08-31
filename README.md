@@ -37,17 +37,12 @@ ___
 - 디자인툴 : `Adobe XD`, `Photoshop` acts.
 
 ### 수행 역할
-- `J-Qeury Plugin`과 `CSS Animation`를 통한 동적인 UI 구현.
-- 'css'를 활용한 menu구조 처리
-- `J-Qeury Plugin` UI 활용도
-   - `count-up` 쿼리플러그인을 사용하여 데이터를 직접적으로 표현(End-user)
-   - `waypoint`와 `Trigger` 쿼리플러그인을 사용하여 생동감있게 표현
+- 한눈에 보이는 mainpage 구성
+  - 이미지를 `Auto-Slide`로 넘겨 사이트이미지를 자동 보여줌  
+  - css `transition Animation` 등으로 menu구조 처리
+- 게시판 형식으로 Subpage 구성
+  - 
 
-
-
-#### 스크린샷
-
-<img src="images/Picka_main.png" width="140" hspace="2"> <img src="images/Picka_detail.png" width="140" hspace="2"> <img src="images/Picka_temp.png" width="140" hspace="2">
 
 ## [After effect Korea - 영상커뮤니티 웹사이트](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
 
