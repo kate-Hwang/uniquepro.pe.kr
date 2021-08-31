@@ -41,7 +41,8 @@ ___
   - 이미지를 `Auto-Slide`로 넘겨 사이트이미지를 자동 보여줌  
   - css `transition Animation` 등으로 menu구조 처리
 - 게시판 형식으로 Subpage 구성
-  - 
+  - 구성하기
+  - 구성하기
 
 
 ## [After effect Korea - 영상커뮤니티 웹사이트](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
