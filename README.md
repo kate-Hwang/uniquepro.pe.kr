@@ -9,6 +9,7 @@
   - **JavaScript** 
   - **J-Query**
   - **HTML5** , **CSS**
+  - **act(경험언어)**
 - 기타
   - **Github**
   - **design tools(photoshop,illustration, act)**
