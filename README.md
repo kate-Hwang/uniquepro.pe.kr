@@ -28,18 +28,16 @@ ___
 
 
 
-### 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
+### # 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
 >기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현
 [→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
 
 ### 사용한 기술
-#
 - 개발 툴 :`HTML5`, `CSS`, `J-Query`, `JavaScript`
 - 디자인툴 : `Adobe XD`, `Photoshop` acts.
 
 ### 수행 역할
-#
 - 한눈에 보이는 mainpage 구성
   - 이미지를 `Auto-Slide`로 넘겨 사이트이미지를 자동 보여줌  
   - 해상도별로 페이지의 `Slide` 사이즈조정 문제 처리
