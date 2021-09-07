@@ -28,7 +28,7 @@ ___
 
 
 
-###  [2.Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
+### 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
 >기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현
 [→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
