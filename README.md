@@ -17,8 +17,8 @@
   - Zeplin , Adobe XD , Figma
 
 ___
-**주요 프로젝트**
-=============
+### **주요 프로젝트**
+
  ## 1.[Project Stuco](https://github.com/kate-Hwang/Project-Stuco)
  **교육지원 웹 서비스**
  > 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지로 기획과 제작 구현(팀프로젝트)
