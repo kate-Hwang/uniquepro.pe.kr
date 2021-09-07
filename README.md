@@ -37,10 +37,12 @@ ___
 ### 수행 역할
 - 한눈에 보이는 mainpage 구성
   - 이미지를 `Auto-Slide`로 넘겨 사이트이미지를 자동 보여줌  
-  - css `transition Animation` 등으로 menu구조 처리
+  - 해상도별로 페이지의 `Slide` 사이즈조정 문제 처리
+  - 오직 css `transition Animation` 등으로 menu구조 처리
+  - 컨텐츠형식 메뉴구조 Box의 이탈현상을 최대한으로 조절 및 후처리
 - 게시판 형식으로 Subpage 구성
-  - 구성하기
-  - 구성하기
+  - 전체 게시글을 분류별로 나뉘어 놓고 분류별 클릭시 각 분류별 게시글만 보이게 처리
+  - 분류게시판을 최대한 자연스럽게 CSS 처리
 
 
 ## [After effect Korea - 영상커뮤니티 웹사이트](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
@@ -53,11 +55,12 @@ SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구�
 
 ### 수행 역할
 - `J-Qeury Plugin`과 `CSS Animation`를 통한 UI 구현.
-- 상세페이지 디자인을 퍼블리싱으로 최대한으로 표현함
+- 상세페이지 디자인을 `Code-Publishing`으로 표현함
 - `J-Qeury Plugin` UI 활용도
-   - `count-up` 쿼리플러그인을 사용하여 데이터를 직접적으로 표현(End-user)
-   - `waypoint`와 `Trigger` 쿼리플러그인을 사용하여 생동감있게 표현
+   - `count-up` 쿼리플러그인을 사용하여 데이터를 직접적으로 구현
+   - `waypoint`와 `Trigger` 쿼리`J-query PlugIn`을 사용하여 생동감있게 구현
+- 부분적 컨텐츠에 Action`hover`사용 -> 동적인 표현
+- `trigger-Scroll`을 활용한 단계적 동적 구현 방식
 - YouTube와 연계하는 화면구성 및 클릭시 링크 바로가기로 구현
-- `trigger`를 활용한 페이지의 
 
 
