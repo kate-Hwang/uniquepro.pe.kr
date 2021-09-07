@@ -20,14 +20,14 @@ ___
 
 ### 포트폴리오 주요 프로젝트
 
-## 1. [Project STUCO](https://github.com/kate-Hwang/Project-Stuco)
+### 1. [Project Stuco - 교육지원 웹 서비스](https://github.com/kate-Hwang/Project-Stuco)
 >공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지로 기획과 제작 구현(팀프로젝트)
 
-** [ → Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)**
+[** → Project STUCO 레파지토리 보러가기**](https://github.com/kate-Hwang/Project-Stuco)
 
 
 
-## 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
+### 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
 >기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현
 [→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
@@ -47,7 +47,7 @@ ___
   - 분류게시판을 최대한 자연스럽게 CSS 처리
 
 
-## 3. [After effect Korea](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
+### 3. [After effect Korea](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/AfterEffectKorea.project/After-effect)
 
 >SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구현
 
