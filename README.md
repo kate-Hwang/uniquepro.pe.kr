@@ -3,6 +3,7 @@
 ### 개인정보
 - [Github](https://github.com/kate-Hwang)
 - [ghkd6385@naver.com](mailto:wnstkdyu@gmail.com)
+- [The Unique](http://uniquepro.pe.kr/)
 
 ### 보유 기술
 - 언어
@@ -18,11 +19,6 @@
 ___
 
 ### 포트폴리오 주요 프로젝트
-
-##[The Unique - 포트폴리오 사이트](http://uniquepro.pe.kr/)
-간단하면서 심플하게 
-작업내용과 황지영에 집중할 수 있도록 부가적인 부분은 생략
-
 
 ## [Project STUCO - 팀 프로젝트](https://github.com/kate-Hwang/Project-Stuco)
 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지로 기획과 제작 구현
