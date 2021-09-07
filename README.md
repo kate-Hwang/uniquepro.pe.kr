@@ -25,6 +25,7 @@ ___
 
  [**→ Project STUCO 레파지토리 보러가기**](https://github.com/kate-Hwang/Project-Stuco)
 
+<img src="/imac_목업이미지2.png" width="800" height="650" hspace="2">
 
 ## 2.[Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 > 기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현
