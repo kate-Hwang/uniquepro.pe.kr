@@ -20,7 +20,7 @@ ___
 
 ## 주요 프로젝트
 
-### 1. [Project Stuco](https://github.com/kate-Hwang/Project-Stuco)
+###1.[Project Stuco](https://github.com/kate-Hwang/Project-Stuco)
 **교육지원 웹 서비스**
 > 공부하는 교육생과 강사들의 수업을 도와 함께 한다는 취지로 기획과 제작 구현(팀프로젝트)
 
@@ -28,7 +28,7 @@ ___
 
 
 
-### 2. [Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
+###2.[Sindoh](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 > 기존의 신도리코 회사의 홈페이지를 리뉴얼 진행하여 구현
 [→신도리코 기존 회사사이트 보러가기](https://www.sindoh.com/index.do?uk=ko)
 
