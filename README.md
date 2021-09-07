@@ -18,7 +18,8 @@
 
 ___
 
-# 주요 프로젝트
+## 주요 프로젝트
+***
 
 ## 1.[Project Stuco](https://github.com/kate-Hwang/Project-Stuco)
 **교육지원 웹 서비스**
