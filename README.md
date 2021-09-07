@@ -24,8 +24,6 @@ ___
 
 #### [ → Project STUCO 레파지토리 보러가기](https://github.com/kate-Hwang/Project-Stuco)
 
-<img src="images/Picka_main.png" width="140" hspace="2">
-
 
 ## [Sindoh - 신도리코 회사 홍보 웹사이트 리뉴얼](https://github.com/kate-Hwang/uniquepro.pe.kr/tree/main/uniquepro.pe.kr/html/sindoh.com)
 
@@ -60,11 +58,6 @@ SNS영상커뮤니티를 상세페이지 컨셉으로 퍼블리싱하여 UI 구�
    - `count-up` 쿼리플러그인을 사용하여 데이터를 직접적으로 표현(End-user)
    - `waypoint`와 `Trigger` 쿼리플러그인을 사용하여 생동감있게 표현
 - YouTube와 연계하는 화면구성 및 클릭시 링크 바로가기로 구현
-- 로그인 화면 구성 시 `UIStackView`에 `View`를 넣었다 빼는 애니메이션 적용
-- 원페이지로 제작
-
-#### 스크린샷
-
-<img src="images/Vlogr_select.jpg" width="150" hspace="2"> <img src="images/Vlogr_edit.jpg" width="150" hspace="2">
+- `trigger`를 활용한 페이지의 
 
 
